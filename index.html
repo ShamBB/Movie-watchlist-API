@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="style.css" rel="stylesheet" />
+    <title>Movie Watchlist</title>
+  </head>
+  <body>
+    <div class="main-layout">
+      <header class="primary-header main-grid">
+        <img
+          src="https://images.unsplash.com/photo-1628432136678-43ff9be34064?q=80&w=2526&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt="a picture with many actor potrait"
+        />
+        <h1>Find Your film</h1>
+        <nav>
+          <ul>
+            <li><a href="myWatchList.html">My watchlist</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <main>
+        <div class="search-section">
+          <form class="main-grid" id="movie-form">
+            <div class="input-group">
+              <input
+                type="text"
+                id="seach-movies"
+                placeholder="Search for a movie"
+                required
+              />
+              <button type="submit" id="btn-search" class="btn-search">
+                <span class="loader" id="loader"></span>
+                Search
+              </button>
+            </div>
+          </form>
+        </div>
+
+        <section class="movie-list movie-grid" id="movie-list">
+          <div class="message-placeholder">
+            <i class="fa-solid fa-film"></i>
+            <p>Start exploring</p>
+          </div>
+          <!-- <div class="movie-container inner-movie-grid">
+            <img
+              class="movie-poster"
+              alt="a poster showing the movie"
+              src="https://m.media-amazon.com/images/M/MV5BNzAxMjg0NjYtNjNlOS00NTdlLThkMGEtMjAwYjk3NmNkOGFhXkEyXkFqcGdeQXVyNTgzMDMzMTg@._V1_SX300.jpg"
+            />
+
+            <h2 class="movie-title">
+              Blade Runner 2049
+              <i class="fa-solid fa-star movie-rating"></i> <span>8.0</span>
+            </h2>
+
+            <div class="movie-info-col">
+              <p class="movie-duration">164 min</p>
+              <p class="movie-genre">Action,Drama,Mystrey</p>
+              <p>
+                <i class="fa-solid fa-circle-plus"></i>
+                Remove
+              </p>
+            </div>
+            <p class="movie-description">
+              A young Colombian woman has to face the frustration of being the
+              only member of her family without magical powers.
+            </p>
+          </div> -->
+
+          <!-- <div class="movie-container inner-movie-grid">
+            <img
+              class="movie-poster"
+              src="https://m.media-amazon.com/images/M/MV5BNzAxMjg0NjYtNjNlOS00NTdlLThkMGEtMjAwYjk3NmNkOGFhXkEyXkFqcGdeQXVyNTgzMDMzMTg@._V1_SX300.jpg"
+              alt="a poster featuring the movie"
+            />
+
+            <h2 class="movie-title">
+              Blade Runner 2049 asdsa asdasd asdsa dsad sad sad sadsa dsa
+            </h2>
+           
+
+            <div class="movie-info-col">
+              <p class="movie-duration">164 min</p>
+              <p class="movie-genre">Action,Drama,Mystrey</p>
+              <p>Remove</p>
+            </div>
+            <p class="movie-description">
+              Young Blade Runner K's discovery of a long-buried secret leads him
+              to track down former Blade Runner Rick Deckard, who's been
+              missin... In 2022, a powerful weapon causes a global blackout that
+              has massive implications all over the world. Young Blade Runner
+              K's discovery of a long-buried secret leads him to track down
+              former Blade Runner Rick Deckard, who's been missin... In 2022, a
+              powerful weapon causes a global blackout that has massive
+              implications all over the world.
+            </p>
+     
+          </div> -->
+
+          <!-- <div class="movie-container inner-movie-grid">
+            <img
+              class="movie-poster"
+              src="https://m.media-amazon.com/images/M/MV5BNzAxMjg0NjYtNjNlOS00NTdlLThkMGEtMjAwYjk3NmNkOGFhXkEyXkFqcGdeQXVyNTgzMDMzMTg@._V1_SX300.jpg"
+              alt="a poster showing the movie"
+            />
+
+            <h2 class="movie-title">
+              Blade Runner 2049 asdsa asdasd asdsa dsad sad sad sadsa dsa
+            </h2>
+           
+
+            <div class="movie-info-col">
+              <p class="movie-duration">164 min</p>
+              <p class="movie-genre">Action,Drama,Mystrey</p>
+              <p>Remove</p>
+            </div>
+            <p class="movie-description">
+              Young Blade Runner K's discovery of a long-buried secret leads him
+              to track down former Blade Runner Rick Deckard, who's been
+              missin... In 2022, a powerful weapon causes a global blackout that
+              has massive implications all over the world. Young Blade Runner
+              K's discovery of a long-buried secret leads him to track down
+              former Blade Runner Rick Deckard, who's been missin... In 2022, a
+              powerful weapon causes a global blackout that has massive
+              implications all over the world.
+            </p>
+          </div> -->
+        </section>
+      </main>
+    </div>
+  </body>
+  <script src="index.js" type="text/javascript"></script>
+</html>
