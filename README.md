@@ -19,13 +19,13 @@ Remove movies from the watchlist.
 # Usage
 To use the Movie Watchlist:
 
-*Clone this repository to your local machine.
-*Obtain an API key from OMDb API (replace YOUR_API_KEY in the code with your actual API key).
-*Open the index.html file in your web browser.
-*Use the search bar to find movies of interest.
-*Click the "Add to Watchlist" button to add movies to your watchlist.
-*Navigate to the "My Watchlist" page to view and manage your watchlist.
-*To remove a movie from your watchlist, click the corresponding remove button.
+* Clone this repository to your local machine.
+* Obtain an API key from OMDb API (replace YOUR_API_KEY in the code with your actual API key).
+* Open the index.html file in your web browser.
+* Use the search bar to find movies of interest.
+* Click the "Add to Watchlist" button to add movies to your watchlist.
+* Navigate to the "My Watchlist" page to view and manage your watchlist.
+* To remove a movie from your watchlist, click the corresponding remove button.
 
 # Screenshot
 ![Screenshot 2024-04-21 145049](https://github.com/ShamBB/Movie-watchlist-API/assets/26355647/5b98fb43-21a5-4828-b5b4-026292b08744)
