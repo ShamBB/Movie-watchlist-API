@@ -12,9 +12,9 @@ View and manage added movies on the "My Watchlist" page.
 Remove movies from the watchlist.
 
 # Technologies Used
-HTML
-Vanilla JavaScript
-OMDb API (Open Movie Database)
+* HTML
+* Vanilla JavaScript
+* OMDb API (Open Movie Database)
 
 # Usage
 To use the Movie Watchlist:
